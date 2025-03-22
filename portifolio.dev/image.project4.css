@@ -1,0 +1,20 @@
+/* Container da imagem */
+.image-container {
+    width: 100%;
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do container */
+    display: flex;
+    justify-content: center; /* Centraliza a imagem */
+    align-items: center;
+    height: auto;
+    overflow: hidden; /* Garante que nada saia do container */
+}
+
+/* Estilo da imagem */
+.responsive-image {
+    width: 100%; /* A imagem ocupará 100% da largura do container */
+    height: 100%; /* A altura será ajustada automaticamente para manter a proporção */
+    object-fit: cover; /* A imagem vai cobrir o espaço sem distorcer */
+    border-radius: 15px; /* Borda arredondada */
+    max-width: 80%; /* Garante que a imagem não ultrapasse a largura do container */
+    max-height: 1100%; /* Garante que a altura não ultrapasse o limite do container */
+}
