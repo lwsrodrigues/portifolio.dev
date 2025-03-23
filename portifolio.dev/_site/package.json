@@ -1,0 +1,22 @@
+{
+  "name": "portifolio.dev",
+  "version": "1.0.0",
+  "description": "projeto pessoal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwsrodrigues/portifolio.dev.git"
+  },
+  "author": "Lucas William Silva Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lwsrodrigues/portifolio.dev/issues"
+  },
+  "homepage": "https://github.com/lwsrodrigues/portifolio.dev#readme",
+  "dependencies": {
+    "portifolio.dev": "file:"
+  }
+}
